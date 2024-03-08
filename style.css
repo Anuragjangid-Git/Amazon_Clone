@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: outfit;
+}
+
+nav{
+    display: flex; /* display everything in one row */
+    align-items: center; /* aling all itmes in the center of nav bar*/
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #131921;
+    color: #fff;
+
+}
+body{
+    background: #dadada;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.location{
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    font-size: 13px;
+    color: #c4c4c4;
+}
+.location h1{
+    color: #fff;
+    font-size: 14px;
+}
+.search{
+    flex:1;
+    display: flex;
+    align-items: center;
+    padding: 1opx 20px;
+    background: #fff;
+    color: gray;
+    max-width: 1000px;
+    border-radius: 4px;
+    margin-left: 15px;
+   
+}
+.drop{
+    
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap:5px;
+    border-radius:  4px 0px 0px 4px;
+    background: #e5e5e5;
+}
+.input-search{
+    border: none;
+    outline: none;
+    width:100%;
+    gap:5px;
+    padding-left: 20px;
+}
+.lens{
+    width: 35px;
+    padding: 8px;
+}
+.search-icon{
+    max-width: 41px;
+    padding: 8px;
+    background: #ffd64f;
+    border-radius: 0px 4px 4px 0px;
+}
+.language{
+    
+    display: flex;
+   font-size: 14px;
+    padding: 8px;
+    align-items: center;
+    gap: 3px;
+}
+
+.hello{
+    padding: 8px;
+    flex-direction: column;
+    align-items: end;
+    font-size: 14px;
+}
+.nav-bottom{
+    display: flex;
+    color: #fff;
+    background: #232f3e;
+    font-size: 15px;
+    gap: 20px;
+    align-items: center;
+    
+
+}
+.menu{
+    display: flex;
+    color: #fff;
+    background: #232f3e;
+    font-size: 15px;
+    gap: 5px;
+    align-items: center;
+    padding: 8px 10px;
+
+}
+
+.Slider ul{
+    display: flex;
+    overflow-y:hidden ;
+   
+}
+.Slider img{
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom,#000000 50% ,transparent 100%);
+}
+
+.Slider a{
+    position: absolute;
+    top: 40%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background: #ffffff4f;
+    color:black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.next{
+    right: 0;
+}
